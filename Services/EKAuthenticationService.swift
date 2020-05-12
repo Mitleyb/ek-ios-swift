@@ -9,7 +9,7 @@
 import Foundation
 import LocalAuthentication
 
-struct LocalAuth {
+struct EKLocalAuth {
     static func authenticate(successHandler: @escaping (Bool) -> Void) {
         let context = LAContext()
         var error: NSError?
