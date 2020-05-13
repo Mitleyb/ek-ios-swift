@@ -12,8 +12,8 @@ import SweeterSwift
 /// This client helps with writing Codable conforming values to the Firebase Realtime Database.
 /// Additionally - this service provides easy Firebase Storage handling.
 struct FirebaseClient {
+    /// Variable directory values.
     enum StorageDirectory: String { case projects, testimonials, media, topLevel }
-    
     /// Variable directory values.
     enum RealtimeDirectory: String { case portfolio, about, inspiration }
     
